@@ -19,11 +19,11 @@ function criptografar(){
 
     // Laços para obter letras ímpares e pares
 
-    for(var i = 1; i < palavra.length; i+=2){
+    for(var i = 0; i < palavra.length; i+=2){
         r+= palavra.charAt(i).toUpperCase()
     }
 
-    for(var j = 0; j < palavra.length; j+=2){
+    for(var j = 1; j < palavra.length; j+=2){
         r+= palavra.charAt(j).toLowerCase()
     }
     if (pCript.length == 1){ // Remove a palavra criptografada do vetor (caso possuir)
