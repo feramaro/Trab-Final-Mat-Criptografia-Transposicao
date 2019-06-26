@@ -10,6 +10,8 @@ var pCript = []
 function criptografar(){
     var palavra = inPalavra.value
 
+    if(!palavra) {alert("O Campo não pode ficar vazio :c"); return}
+
     if(pSalva.length == 1){ // Remove a palavra atual no vetor (caso possuir)
         pSalva.shift()
     }
@@ -36,6 +38,7 @@ function criptografar(){
 
 function decriptografar(){
     var palavra = inPalavra.value
+    if(!palavra) {alert("O Campo não pode ficar vazio :c"); return}
 
     if(palavra != pCript[0]){ // Verifica se a palavra inserida é a palavra criptografada
         alert("Insira a Palavra Correta")
