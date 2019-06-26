@@ -51,8 +51,6 @@ function decriptografar(){
     
 }
 
-
-
 // Importa e adiciona o evento click aos botões
 var btDecript = document.getElementById("btDecript").addEventListener("click", decriptografar)
 var btCript = document.getElementById("btCript").addEventListener("click", criptografar)
