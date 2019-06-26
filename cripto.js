@@ -14,11 +14,11 @@ function criptografar(){
     var r = ""
 
     for(var i = 1; i < palavra.length; i+=2){
-        r+= palavra.charAt(i)
+        r+= palavra.charAt(i).toUpperCase()
     }
 
     for(var j = 0; j < palavra.length; j+=2){
-        r+= palavra.charAt(j)
+        r+= palavra.charAt(j).toLowerCase()
     }
     if (pCript.length == 1){
         pCript.shift()
