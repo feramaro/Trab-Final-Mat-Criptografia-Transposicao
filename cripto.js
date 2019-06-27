@@ -26,9 +26,9 @@ function criptografar(){
     }
 
     for(var j = 1; j < palavra.length; j+=2){
-        r+= palavra.charAt(j).toLowerCase()
+        r+= palavra.charAt(j).toUpperCase()
     }
-    if (pCript.length == 1){ // Remove a palavra criptografada do vetor (caso possuir)
+    if(pCript.length == 1){ // Remove a palavra criptografada do vetor (caso possuir)
         pCript.shift()
     }
     pCript.push(r) // Adiciona a palavra critografada no vetor
