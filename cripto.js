@@ -3,7 +3,7 @@
 var inPalavra = document.getElementById("inPalavra") 
 var outTexto = document.getElementById("outTexto")
 
-// Cria os vetores para salvaar a palavra normal e encriptada
+// Cria os vetores para salvar a palavra normal e encriptada
 var pSalva = []
 var pCript = []
 
